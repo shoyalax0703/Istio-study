@@ -1,22 +1,46 @@
 Istio Project 
 
 Purpose:/n
-1, To study about Istio using Minikube and sample microservices applications in GCP/n
+1, To study about Istio using Minikube and sample microservices applications in GCP
 
-Lession Learnts/n
-1, Istio installration is quite easy and deploy envoy proxy to each pods are easy because i do not need to have any configration for kubernetes./n 
-2, Istio multiple addons that enable me to visualize the microservice status./n
+
+
+Lession Learnts
+
+
+1, Istio installration is quite easy and deploy envoy proxy to each pods are easy because i do not need to have any configration for kubernetes.
+
+
+
+2, Istio multiple addons that enable me to visualize the microservice status.
+
+
 
 
 Cluster
-Local Minikube Cluster 
+
+
+Local Minikube Cluster
+
+
 Istio version
+
+
 istio-1.14.3
 
+
 // initialize minikube cluster with required resources.
+
+
 minikube start --cpus='6' --memory='7000'
+
+
 //install Istio
+
+
 mkdir istio-study
+
+
 cd istio-study
 curl -L https://istio.io/downloadIstio | sh -
 cd istio-1.14.3		
